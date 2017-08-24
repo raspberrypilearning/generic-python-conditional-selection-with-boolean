@@ -1,19 +1,29 @@
-## Introduction
+- A standard `if` statement in Python checks for a single condition. For instance:
 
-Add project description here. What will learners be making?
+```python
+x = 5
+if x > 0:
+	print('x is greater than zero')
+```
 
-### What you will make
+- But sometimes you might want to check for more than one condition. In these instances you can use logical operators in your code.
 
-Add something here to showcase here, for example:
+- The `and` operator checks to see if both of two conditions have been met. For instance
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+```python
+x = 5
+if x > 0 and x < 10:
+    print('x is between 0 and 10')
+```
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+- So long as x is any number within the group - `1,2,3,4,5,6,7,8,9`, then the condition will be true.
 
-### What you will learn
+- You can use the `or` operator to check if either of the conditions are true.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+```python
+x = 5
+if x > 0 or x < 10:
+	print('x exists')
+```
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+- In this case, the condition will be true as long as `x` is greater than `0` or if it is less than `10`, so in other words as long as it is a number.
