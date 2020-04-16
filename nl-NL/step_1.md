@@ -1,29 +1,29 @@
-- A standard `if` statement in Python checks for a single condition. For instance:
+- Een standaard `if` instructie in Python controleert op een enkele voorwaarde. Bijvoorbeeld:
 
 ```python
 x = 5
 if x > 0:
-    print('x is greater than zero')
+    print('x is groter dan nul')
 ```
 
-- But sometimes you might want to check for more than one condition. In such cases, you can use logical operators in your code.
+- Maar soms wil je misschien op meer dan één voorwaarde controleren. In dergelijke gevallen kun je logische operatoren in je code gebruiken.
 
-- The `and` operator checks to see if two conditions have both been met. For instance:
+- De operator `and` controleert of aan beide voorwaarden is voldaan. Bijvoorbeeld:
 
 ```python
 x = 5
 if x > 0 and x < 10:
-    print('x is between 0 and 10')
+    print('x is tussen 0 en 10')
 ```
 
-- So long as `x` is any number within the group - `1,2,3,4,5,6,7,8,9`, then the condition will be true.
+- Zolang `x` een willekeurig getal binnen de groep is - `1,2,3,4,5,6,7,8,9`, blijft de voorwaarde waar.
 
-- You can use the `or` operator to check if either of the conditions is true.
+- Je kunt de operator `or` gebruiken om te controleren of aan één van beide voorwaarden is voldaan.
 
 ```python
 x = 5
 if x > 0 or x < 10:
-    print('x exists')
+    print('x bestaat')
 ```
 
-- In this case, the condition will be true as long as `x` is greater than `0`, or if it is less than `10`.
+- In dit geval blijft de voorwaarde waar zolang `x` groter is dan `0`of kleiner is dan `10`.
