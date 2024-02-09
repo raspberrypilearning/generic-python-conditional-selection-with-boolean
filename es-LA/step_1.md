@@ -8,7 +8,7 @@ if x > 0:
 
 - Pero a veces es posible que desees verificar más de una condición. En tales casos, puedes usar operadores lógicos en tu código.
 
-- El operador `y` comprueba si se han cumplido dos condiciones. Por ejemplo:
+- El operador `and` comprueba si se han cumplido dos condiciones. Por ejemplo:
 
 ```python
 x = 5
